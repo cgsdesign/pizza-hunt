@@ -1,9 +1,9 @@
 :root {
-  --primary: #e4b363;
-  --secondary: #ef6461;
-  --tertiary: #fffd8c;
+  --primary: #f2990b;
+  --secondary: #670200;
+  --tertiary: #ffd260;
   --quaternary: #e0dfd5;
-  --quinary: #fcf83b;
+  --quinary: #9d9d9d;
   --light: #e8e9eb;
   --dark: #313638;
   --border-radius: 1.5rem;
@@ -27,10 +27,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Karla', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   color: var(--primary);
-  line-height: 1.5;
-  font-size: 16px;
+  line-height: 1.25;
+  font-size: 14px;
   background-image: url('../images/header-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
