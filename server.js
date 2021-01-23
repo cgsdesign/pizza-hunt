@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3001;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
- app.use(express.static('public'));//!!!!!!!!!!!!!!!!!! If my css and S files are missing this is likely missing
+app.use(express.static('public'));//!!!!!!!!!!!!!!!!!! If my css and S files are missing this is likely missing
 
 app.use(require('./routes'));
 

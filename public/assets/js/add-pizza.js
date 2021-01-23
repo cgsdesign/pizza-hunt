@@ -67,6 +67,8 @@ const handlePizzaSubmit = event => {
     })
     .catch(err => {
       console.log(err);
+      //catch for offline - function below from idb.js
+      saveRecord(formData);
     });
 
 };
